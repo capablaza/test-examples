@@ -1,6 +1,5 @@
 package com.testing.samples.unit;
 
-import com.testing.samples.unit.*;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
