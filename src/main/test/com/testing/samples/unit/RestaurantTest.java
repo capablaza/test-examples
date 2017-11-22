@@ -20,7 +20,7 @@ public class RestaurantTest{
     }
 
     @Test
-    public void testCapacityUsedWhenAddCustomerValid(){
+    public void testAddCustomerWhenThereIsCapacityThenCapacityUsedOk(){
         int initialCapacity = 10;
         Restaurant restaurant =  new Restaurant(initialCapacity);
         restaurant.addCustomer(20);
